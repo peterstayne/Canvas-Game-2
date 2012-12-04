@@ -26,8 +26,16 @@ g.canvas.setAttribute('height', g.cheight);
 
 window.onload = function() {
 
-	// stuff
+	var startTime = Date.now();
+
+	function step(timestamp) {
+		var progress = timestamp - start;
+		requestAnimationFrame(step);
+	}
+	requestAnimationFrame(step);
 
 };
+
+
 
 })();

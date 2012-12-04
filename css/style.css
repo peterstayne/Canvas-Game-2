@@ -31,7 +31,7 @@ a, a:visited, a:hover, a:active {
 }
 #score { position: absolute; font-family: helevetica, verdana, arial; color: white; }
 
-canvas { position: absolute; left: 0; top: 0; cursor: none;  margin: 0 auto; display: block; }
+canvas { position: absolute; left: 0; top: 0; cursor: none;  margin: 0 auto; display: block; border: 1px solid red;}
 
 #bgimg { display: none; }
 
